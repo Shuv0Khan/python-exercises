@@ -1,2 +1,2 @@
-# special-sniffle
+# python-exercises
 Codes while learning Python
