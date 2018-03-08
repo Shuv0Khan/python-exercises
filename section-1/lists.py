@@ -54,3 +54,37 @@ print(out);
 # enclose whole thing in [] and assign to out
 out = [element**2 for element in seq];
 print(out);
+
+"""
+Built-in functions of list
+"""
+print("built-ins");
+print(seq);
+print("poped :",seq.pop());
+print(seq);
+print("appended 5");
+seq.append(5);
+print(seq);
+print("cleared list");
+
+# beaware of del
+del seq[:]
+print(seq);
+
+a = [1,2,3];
+b = a;
+a = [];
+# a will be empty
+print(a);
+# b will remain unchanged
+print(b);
+
+# but
+a = [1,2,3];
+b = a;
+# inplace deleting
+del a[:]
+# a will be empty
+print(a);
+# b will also be empty
+print(b);
