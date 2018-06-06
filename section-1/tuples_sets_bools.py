@@ -6,17 +6,18 @@ print(True and False);
 print(not False and True);
 
 my_tuple = (1,2,3,"Shuvo");
-print(my_tuple[3]);
+print("my_tuple[3] : {}".format(my_tuple[3]));
+print("\n");
 
 myset = set();
 myset.add(1);
 myset.add(2);
 myset.add(4);
 myset.add(2.4);
-print(myset);
+print("myset : {}".format(myset));
 
 myset.add(2);
-print(myset);
+print("adding 2 to myset : {}".format(myset));
 
 mylist = [1,3,4,5,5,5,6,7,3];
-print(set(mylist));
+print("creating set from list {} : {}".format(mylist,set(mylist)));
