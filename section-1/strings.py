@@ -37,6 +37,13 @@ print(my_string.split("e"));
 print("my string".split());#by default splits on whitespace
 print(len(my_string));#length of string
 
+# String to list and vice-versa
+print("*** String to List and vice-versa ***");
+
+l = list(my_string);
+l.reverse();
+my_string = "".join(l);
+
 # Print formatting
 print("*** Print formatting ***");
 
