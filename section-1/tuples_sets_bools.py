@@ -7,6 +7,8 @@ print(not False and True);
 
 my_tuple = (1,2,3,"Shuvo");
 print("my_tuple[3] : {}".format(my_tuple[3]));
+# tupples are accessed like list with [] braces
+# they are created using () like a function
 print("\n");
 
 myset = set();
